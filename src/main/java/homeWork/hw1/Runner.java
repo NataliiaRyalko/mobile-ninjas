@@ -1,7 +1,5 @@
 package homeWork.hw1;
 
-import java.util.Set;
-
 public class Runner {
     public static void main(String[] args) {
 

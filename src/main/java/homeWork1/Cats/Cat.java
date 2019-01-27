@@ -1,16 +1,17 @@
-package homeWork1;
-
-import java.util.HashMap;
+package homeWork1.Cats;
 
 public class Cat {
 
     private String name;
-    private Cat cat = new Cat();
-
 
 
     public Cat(){
-        this.cat = new Cat();
+
+    }
+
+    public Cat(String name){
+        this.name = name;
+
     }
 
     public void setCatName(String name){
